@@ -13,9 +13,9 @@ if (file_exists(__DIR__.'/vendor/autoload.php')) {
 function homestead_path()
 {
     if (isset($_SERVER['HOME'])) {
-        return $_SERVER['HOME'].'/.homestead';
+        return $_SERVER['HOME'].'/.homestead_ss3';
     } else {
-        return $_SERVER['HOMEDRIVE'].$_SERVER['HOMEPATH'].DIRECTORY_SEPARATOR.'.homestead';
+        return $_SERVER['HOMEDRIVE'].$_SERVER['HOMEPATH'].DIRECTORY_SEPARATOR.'.homestead_ss3';
     }
 }
 

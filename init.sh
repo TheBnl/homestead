@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-homesteadRoot=~/.homestead
+homesteadRoot=~/.homestead_ss3
 
 mkdir -p "$homesteadRoot"
 
